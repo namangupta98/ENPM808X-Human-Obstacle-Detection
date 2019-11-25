@@ -116,7 +116,6 @@ class VisionInput {
    * @return none
    */
   ~VisionInput();
- private:
   /**
    * @brief Checks if given SVM classifier file exists or not
    * @param filename of type string
