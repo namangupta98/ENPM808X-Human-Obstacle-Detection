@@ -114,8 +114,9 @@ make code_coverage
 ## Build
 With the following steps you can clone this repository in your local machine and build it.
 ```
-git clone --recursive https://github.com/SaumilShah66/ENPM808X-Human-Obstacle-Detection
+git clone --recursive https://github.com/namangupta98/ENPM808X-Human-Obstacle-Detection
 cd ENPM808X-Human-Obstacle-Detection
+git checkout GMock_Extra_Credit_Naman 
 mkdir build
 cd build
 cmake ..
