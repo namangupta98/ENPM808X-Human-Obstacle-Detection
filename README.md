@@ -144,3 +144,9 @@ cd docs
 cd html
 google-chrome index.html
 ```
+## GMock
+
+Below mentioned are the files used for gmock
+
+1. MockDetectHuman.hpp - Mocked DetectHuman.hpp
+2. MockDetectHumanTest.cpp - Test file for MockDetectHuman.hpp to test either the fileExists or not.
