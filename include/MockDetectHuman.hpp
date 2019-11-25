@@ -77,6 +77,8 @@ class MockDetectHuman : public DetectHuman {
    * @param none
    * @return none
    */
+
+  ~MockDetectHuman();
 };
 
 #endif  // INCLUDE_MOCKDETECTHUMAN_HPP_

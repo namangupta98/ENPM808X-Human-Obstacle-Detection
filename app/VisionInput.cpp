@@ -36,7 +36,6 @@
 #include <VisionInput.hpp>
 
 VisionInput::VisionInput() {
-
 }
 
 void VisionInput::setupDetector(std::string SVMFilename) {
@@ -72,7 +71,6 @@ void VisionInput::detectWithCamera(int cameraCode) {
       if (c == 27) {
         break;
       }
-
     }
     cap.release();
     cv::destroyAllWindows();
@@ -97,7 +95,6 @@ void VisionInput::detectWithVideoFile(std::string filename) {
       if (c == 27) {
         break;
       }
-
     }
     cap.release();
     cv::destroyAllWindows();
@@ -134,5 +131,4 @@ void VisionInput::showImageWithBox() {
 }
 
 VisionInput::~VisionInput() {
-
 }

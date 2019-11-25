@@ -35,7 +35,6 @@
 #include <DetectHuman.hpp>
 
 DetectHuman::DetectHuman() {
-
 }
 
 void DetectHuman::setDefaultSVM() {

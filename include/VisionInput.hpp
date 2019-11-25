@@ -35,14 +35,14 @@
 #ifndef INCLUDE_VISIONINPUT_HPP_
 #define INCLUDE_VISIONINPUT_HPP_
 
+#include <sys/stat.h>
+#include <fstream>
+#include <sys/types.h>
 #include <iostream>
 #include <string>
 #include <vector>
 #include <opencv2/opencv.hpp>
 #include <DataLoader.hpp>
-#include <sys/stat.h>
-#include <fstream>
-#include <sys/types.h>
 #include <DetectHuman.hpp>
 
 /**

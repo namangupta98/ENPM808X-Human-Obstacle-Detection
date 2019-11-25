@@ -51,10 +51,12 @@ std::vector<cv::String> DataLoader::give_image_names(std::string dir) {
   return names;
 }
 
+/*
 void DataLoader::setupHOG() {
   hog.cellSize = cellsize;
   hog.winSize = windowSize;
 }
+*/
 
 void DataLoader::get_training_data() {
   std::cout << "Reading directories to get names of images" << std::endl;

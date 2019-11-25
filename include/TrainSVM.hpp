@@ -127,4 +127,4 @@ class TrainSVM {
   void setNegDirectory(std::string dir);
 };
 
-#endif  // INCLUDE_DATALOADER_HPP_
+#endif  // INCLUDE_TRAINSVM_HPP_

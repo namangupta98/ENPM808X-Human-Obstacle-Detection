@@ -202,7 +202,6 @@ class DataLoader {
    * @brief Container stores positive region of interest data of type cv::Rect
    */
   cv::Rect pos_roi;
-
 };
 
 #endif  // INCLUDE_DATALOADER_HPP_
